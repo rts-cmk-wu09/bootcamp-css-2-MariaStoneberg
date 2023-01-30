@@ -82,6 +82,10 @@ h1 {
   .some { grid-area: some; }
   .text-area { grid-area: text-area; }
 
+.start-article-slider {
+    display: flex;
+}
+
 
 .article-slider {
     display: flex;
