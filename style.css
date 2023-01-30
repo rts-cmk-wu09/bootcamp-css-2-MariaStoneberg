@@ -87,13 +87,29 @@ h1 {
     width: 25px;
 }
 
+.abo-section button {
+    background-color: #DE0100;
+    border: none;
+    color: #F0F0F0;
+    padding: 10px 50px 10px 50px;
+    border-radius: 8px;
+    
+
+}
+
+.abo-section p {
+    color: grey;
+}
+
 .start-article-slider {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
 
-
+h3, h4 {
+    color: #DE0100;
+}
 
 .article-slider {
     display: flex;
@@ -107,4 +123,37 @@ h1 {
 
 .article-img {
     width: 300px;
+}
+
+.front-page-articles {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "first-article second-article third-article"
+      "fourth-article fifth-article sixth-article";
+  }
+  
+  .first-article { grid-area: first-article; }
+  
+  .second-article { grid-area: second-article; }
+  
+  .third-article { grid-area: third-article; }
+  
+  .fourth-article { grid-area: fourth-article; }
+  
+  .fifth-article { grid-area: fifth-article; }
+  
+  .sixth-article { grid-area: sixth-article; }
+  
+
+.front-page-articles img {
+    width: 200px;
+
+}
+
+.front-page-articles p {
+    font-weight: bold;
+    font-size: 1.2em;
 }
