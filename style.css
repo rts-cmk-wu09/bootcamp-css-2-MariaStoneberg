@@ -69,22 +69,30 @@ h1 {
 }
 
 
-.divider {
-    display: grid; 
-    grid-auto-columns: 1fr; 
-    grid-template-columns: 1fr 2fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      ". text-area some"
-      ". . ."; 
-  }
-  .some { grid-area: some; }
-  .text-area { grid-area: text-area; }
+
+.some {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.some button {
+    width: 100px;
+    color: white;
+    background-color: rgb(9, 116, 182);
+    border: none;
+}
+
+.some img {
+    width: 25px;
+}
 
 .start-article-slider {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
+
 
 
 .article-slider {
