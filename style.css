@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+
+/* Header start */
 header {
     width: 100%;
     margin-bottom: 50px;
@@ -35,10 +37,62 @@ header img {
     gap: 10px;
 }
 
+
+/* Annonce start */
 .ads {
     width: 700px;
     height: 100px;
     margin: 0 auto;
 
     background-color: #F0F0F0;
+}
+
+/* Main indhold start */
+
+
+.main-content {
+    width: 700px;
+
+}
+
+.main-content p {
+    color: grey;
+}
+
+.main-content img {
+    width: 400px;
+    align-items: end;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+
+.divider {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". text-area some"
+      ". . ."; 
+  }
+  .some { grid-area: some; }
+  .text-area { grid-area: text-area; }
+
+
+.article-slider {
+    display: flex;
+}
+
+.article-slider figcaption {
+    padding-right: 90px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.article-img {
+    width: 300px;
 }
