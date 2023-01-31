@@ -217,4 +217,26 @@ h3, h4 {
     width: 200px;
 }
 
+.divider-articles {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 50px;
+
+    padding-left: 487px;
+}
+
+.divider-articles hr {
+    margin-right: 245px;
+    margin-bottom: 10px;
+}
+
+.divider-articles h3 {
+    margin-left: 575px;
+    margin-bottom: 10px;
+}
+
+.divider-articles li {
+    font-weight: bold;
+}
 
