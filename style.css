@@ -269,3 +269,36 @@ h3, h4 {
 .fourth-article {
     display: none;
 }
+
+
+/* Aside to frontpage articles */
+.aside-frontp-articles {
+    float: left;
+    margin-top: -526px;
+    margin-left: 240px;
+}
+
+.aside-frontp-articles h3 {
+    font-size: 20px;
+}
+
+.aside-frontp-articles h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.aside-frontp-articles h4 {
+    color: grey;
+    font-size: 12px;
+
+    margin-top: 10px;
+}
+
+.aside-frontp-articles button {
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+
+    margin-top: 10px;
+
+}
