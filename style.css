@@ -320,3 +320,8 @@ h3, h4 {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
+
+.comments-area img {
+    width: 50px;
+}
