@@ -240,3 +240,32 @@ h3, h4 {
     font-weight: bold;
 }
 
+.front-page-articles-top  {
+    display: flex;
+
+    margin-top: 20px;
+
+    padding-left: 400px;
+    padding-right: 209px;
+
+    
+}
+
+.front-page-articles-top img {
+    width: 200px;
+}
+
+.front-page-articles-bottom {
+    display: flex;
+
+    margin-top: 20px;
+
+    padding-left: 400px;
+    padding-right: 209px;
+
+
+}
+
+.fourth-article {
+    display: none;
+}
