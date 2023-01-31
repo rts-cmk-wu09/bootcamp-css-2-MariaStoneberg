@@ -302,3 +302,21 @@ h3, h4 {
     margin-top: 10px;
 
 }
+
+.divider-comments {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 50px;
+
+    padding-left: 487px;
+
+
+
+}
+
+.divider-comments hr {
+    margin-right: 245px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
